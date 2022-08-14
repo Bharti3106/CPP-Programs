@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+sumOfDigits(int n)
+{
+    if(n==0) return 0;
+    else  return sumOfDigits(n/10)+(n%10);
+}
+int main()
+{
+sumOfDigits(884)
+return 0;
+}
+Footer
